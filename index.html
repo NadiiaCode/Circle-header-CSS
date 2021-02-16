@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circle header</title>
+  </head>
+  <body>
+    <header>
+      <svg viewBox="0 0 200 100" preserveAspectRatio="none">
+        <circle fill="white" cx="100" cy="0" r="100" />
+        <circle fill="white" cx="100" cy="0" r="100" />
+      </svg>
+    </header>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        height: 100px;
+        position: relative;
+        background-image: radial-gradient(
+          circle,
+          #6b1a41,
+          #7f2d59,
+          #933f73,
+          #a5538f,
+          #b667ac,
+          #b975bc,
+          #bb84cb,
+          #bd92da,
+          #b69cdb,
+          #b1a5d9,
+          #afadd6,
+          #b1b4d1
+        );
+      }
+
+      svg {
+        width: 100%;
+        height: 100px;
+        bottom: 0;
+        position: absolute;
+      }
+    </style>
+  </body>
+</html>
